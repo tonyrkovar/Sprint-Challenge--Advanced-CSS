@@ -1,1 +1,12 @@
 // Mixins Here
+
+.flex-mixin(@justify, @align) {
+    display: flex;
+    justify-content: @justify;
+    align-items: @align; 
+}
+
+.button-styling(@textColor, @btnBgColor) {
+    color: @textColor;
+    background-color: @btnBgColor;
+}
