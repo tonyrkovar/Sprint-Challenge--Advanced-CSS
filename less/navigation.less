@@ -5,6 +5,7 @@
     border-bottom: 2px solid @nav-border;
     @media @phone {
         width: 99%;
+        height: 18vw;
     }
     nav{
         .flex-mixin(space-between, flex-end);
@@ -12,7 +13,7 @@
         @media @phone {
             justify-content: center;
             width: 99%;
-            margin: 0;
+            margin: 0; 
         }
     }
     a{
@@ -30,5 +31,9 @@
         font-size: 4rem;
         margin: 0 2% 2%;
         padding-top: 1%;
+        @media @phone {
+            margin-bottom: 3%;
+            padding-top: 2%;
+        }
     }
 }
