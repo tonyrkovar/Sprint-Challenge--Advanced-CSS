@@ -52,7 +52,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
     ### A: My favorite concept and the one that gives me the most trouble would have to be variables. I understand how it works but I can't seem to think about the proper way to make a referencable variable quickly. I tend to have to think about it for a few seconds to figure out exactly what i'm accomplising when making a variable. 
 
-You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
+You are expected to be able to answer all of these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up
 
