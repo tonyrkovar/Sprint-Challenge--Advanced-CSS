@@ -342,8 +342,11 @@ footer {
 }
 .form-page {
   margin: 0 30%;
+  border: 2px solid gray;
+  opacity: 0.7;
 }
 .form-page form {
+  opacity: 1;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
