@@ -1,0 +1,37 @@
+.form-page{
+    margin: 0 30%;
+    border: 2px solid gray;
+    opacity: .7;
+    form {
+        opacity: 1;
+        h2{
+            text-align: center;
+            align-items: center;
+        }
+        .flex-mixin( flex-start, flex-start);
+        flex-direction: column;
+        margin: 5% 14%;
+        padding: 3%;
+        background: @waterloo;
+        width: 40%;
+        color: @border-real;
+        
+
+        button {
+            .button-styling(@porcelain, @btn-bg-color );
+            padding: 1% 1%;
+            border-radius: 10px;
+            font-size: 1.7rem;
+            border: none;
+            font-weight: 550;
+            margin: 2% 2%;
+            @media @phone {
+            width: 100%;
+            border-radius: 8px;
+            height: 23%;
+            font-size: 1.8rem;
+            margin-bottom: 8%;
+            }
+        }
+    }
+}
